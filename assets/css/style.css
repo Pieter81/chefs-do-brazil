@@ -825,32 +825,40 @@ font-size: 6rem;
 	font-size:1.875rem;
 }
 
+#ourPakeg{
+	background:url(../images/brazilian_wine.jpg) no-repeat center top scroll;
+}
+
+#ourPakeg2{
+	background:url(../images/moqueca.jpg) no-repeat center top scroll;
+}
+
+#ourPakeg3{
+	background:url(../images/brigadeiro.jpg) no-repeat center top scroll;
+}
+
 .ourPakeg{
-	background:url(../images/newsbg.jpg) no-repeat center top scroll;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -moz-background-size: cover !important;
+  -webkit-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
   width: 100%;
   overflow: hidden;	
   padding-bottom:120px;
 }
 
 .single_pakeg_one{
-	background:url(../images/newsone.jpg) left center no-repeat;
 	padding:30px;
 	overflow:hidden;
 	margin-top:60px;
 }
 .single_pakeg_two{
-	background:url(../images/newstwo.jpg) right center no-repeat;
 	padding:30px;	
 	overflow:hidden;
 	margin-top:60px;	
 	
 }
 .single_pakeg_three{
-	background:url(../images/newsthree.jpg) left center no-repeat;
 	padding:30px;	
 	overflow:hidden;
 	margin-top:60px;	
@@ -858,7 +866,7 @@ font-size: 6rem;
 }
 
 .single_pakeg_text{
-	background:#fff;
+	background:rgba(255,255,255,0.7);
 	padding:30px;
 	text-align:left;
 }
@@ -925,7 +933,6 @@ font-size: 6rem;
 
 /* Footer Section CSS */
 .footer_widget{
-	background:url(../images/footerbg.jpg) center top no-repeat scroll;
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
@@ -1025,4 +1032,11 @@ font-size: 6rem;
 	margin-left: -6px;
 	text-decoration: none;
 
+}
+
+/*bootstrap overwrites*/
+
+.navbar-toggle {
+  border:0px;
+  border-radius:0px;
 }
