@@ -655,8 +655,9 @@ a.navbar-brand.our_logo{
 /* slider section */
 
 .slider{
-	background:url(../images/bannerbg.jpg) center center no-repeat;
-	background-size:cover;
+  background:url(../images/bannerbg.jpg) center center no-repeat;
+  background-size:cover;
+  height: 100vh;
 }
 .main_slider {
 	
@@ -680,6 +681,7 @@ font-size: 6rem;
 	width:100%;
 	top:0;
 	left:0;
+  height: 100vh;
 }
 
 
@@ -721,7 +723,6 @@ font-size: 6rem;
 	display:inline-block;
 }
 .main_features_content{
-	background:url(../images/ft.png) right center no-repeat;
 	padding:40px;
 	overflow:hidden;
 }
@@ -764,22 +765,27 @@ font-size: 6rem;
 	padding:0;
 	position:relative;
 	overflow:hidden;
+        margin-bottom:2%;
 
 }
 .single_portfolio_text img{
-	width:100%;
+  width:200px;
+}
+
+.single_portfolio_text h4{
+  color:#FFFFFF;
 }
 
 .single_portfolio_text:hover .portfolio_images_overlay{
-	top: 28px;
+    top: 28px;
     left: 14px;
 }
 
 .portfolio_images_overlay{
-	width: 90%;
+    width: 90%;
     height: 80%;
     background: rgba(0, 0, 0, .5);
-    padding: 20px;
+    padding: 21px;
     margin: 0 auto;
     top:-100%;
     left: 14px;
@@ -799,7 +805,11 @@ font-size: 6rem;
 	line-height:3rem;
 }
 
-
+.portfolio_images_overlay .fa {
+  font-size:21px;
+  color:#FFFFFF;
+  padding:7px;
+}
 
 
 
